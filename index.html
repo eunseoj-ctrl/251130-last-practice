@@ -5,9 +5,50 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>251130-last-practice</title>
+    <link rel="stylesheet" href="/src/style.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app" class="intro-root">
+      <header class="hero">
+        <div class="hero-inner">
+          <h1 class="name">안녕하세요 — 정은서입니다</h1>
+          <p class="subtitle">기술교사 · 신양중학교</p>
+          <p class="tagline">서울 신양중학교에서 학생들과 함께 배우고 가르칩니다</p>
+
+          <div class="actions">
+            <button id="download-resume" class="btn">이력서 내려받기</button>
+            <button id="toggle-theme" class="btn ghost">배경 애니메이션 토글</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="about card">
+          <h2>소개</h2>
+          <p>저는 정은서이고 기술교사로 신양중학교에서 근무하고 있습니다. 교실에서 실습 중심의 수업을 통해 학생들의 창의적 문제해결 능력을 키우는 것을 중요하게 생각합니다.</p>
+          <ul class="meta">
+            <li>직업: 기술교사</li>
+            <li>근무지: 신양중학교</li>
+            <li>주소: 서울 신양중학교</li>
+          </ul>
+        </section>
+
+        <section class="skills card">
+          <h2>관심 분야</h2>
+          <div class="chips">
+            <span class="chip">마이크로비트 활용 피지컬 컴퓨팅</span>
+            <span class="chip">데이터 리터러시 수업</span>
+            <span class="chip">실습 중심 교수법</span>
+          </div>
+        </section>
+
+        <section class="contact card">
+          <h2>연락</h2>
+          <p>학교 연락처 및 공식 루트를 통해 문의해주세요.</p>
+        </section>
+      </main>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
